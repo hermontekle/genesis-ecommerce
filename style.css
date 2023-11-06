@@ -139,7 +139,7 @@ body {
 /* Home page  */
 
 #hero {
-  background-image: url("/assets/genesis-hero.png");
+  background-image: url("/assets/genesis-hero-2.png");
   height: 90vh;
   width: 100%;
   background-size: cover;
@@ -154,10 +154,22 @@ body {
 #hero h4 {
   padding-bottom: 15px;
   color: white;
+  filter: drop-shadow(-1px -1px 9px #a3a3a3);
+}
+
+#hero h2 {
+  color: rgb(255, 255, 255);
+  filter: drop-shadow(-1px -1px 9px #a3a3a3);
+}
+
+#hero p {
+  color: rgb(255, 255, 255);
+  filter: drop-shadow(-1px -1px 9px #a3a3a3);
 }
 
 #hero h1 {
-  color: rgb(13, 199, 137);
+  color: rgb(255, 255, 255);
+  filter: drop-shadow(-1px -1px 9px #a3a3a3);
 }
 
 #hero button {
